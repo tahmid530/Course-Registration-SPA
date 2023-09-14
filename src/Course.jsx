@@ -20,6 +20,6 @@ const course = ({ course }) => {
                 <button className="btn btn-wide bg-[#2F80ED] text-[white] hover:bg-black">Wide</button>
             </div>
         </div>
-    );
-};
-export default course
+    )
+}
+export default course;
