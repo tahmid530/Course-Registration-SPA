@@ -5,7 +5,7 @@ function App() {
   const course = [
     {
       id: 1,
-      image: `image/Rectangle 2-2.png`,
+      image: `./image/Rectangle 2-2.png`,
       title: 'Introduction to C Programming',
       description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
       price: 15000,
@@ -13,7 +13,7 @@ function App() {
     },
     {
       id: 2,
-      image: 'image/Rectangle 2-3.png',
+      image: './image/Rectangle 2-3.png',
       title: 'Introduction to Algorithms',
       description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
       price: 25000,
@@ -21,7 +21,7 @@ function App() {
     },
     {
       id: 3,
-      image: 'image/Rectangle 2-4.png',
+      image: './image/Rectangle 2-4.png',
       title: 'Introduction to C++ for DSA',
       description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
       price: 10000,
@@ -29,7 +29,7 @@ function App() {
     },
     {
       id: 4,
-      image: 'image/Rectangle 3.png',
+      image: './image/Rectangle 3.png',
       title: 'Basic Data Structures',
       description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
       price: 35000,
@@ -37,7 +37,7 @@ function App() {
     },
     {
       id: 5,
-      image: 'image/Rectangle 2.png',
+      image: './image/Rectangle 2.png',
       title: 'Introduction to OOP Python',
       description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
       price: 19000,
@@ -45,7 +45,7 @@ function App() {
     },
     {
       id: 6,
-      image: 'image/Rectangle 2-5.png',
+      image: './image/Rectangle 2-5.png',
       title: 'Software Engineering',
       description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
       price: 23000,
@@ -53,7 +53,7 @@ function App() {
     },
     {
       id: 7,
-      image: 'image/Rectangle 3-1.png',
+      image: './image/Rectangle 3-1.png',
       title: 'AWS, Cloud Computing',
       description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
       price: 35000,
@@ -61,7 +61,7 @@ function App() {
     },
     {
       id: 8,
-      image: 'image/Rectangle 2-1.png',
+      image: './image/Rectangle 2-1.png',
       title: 'Database (MySQL)',
       description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
       price: 19000,
@@ -69,7 +69,7 @@ function App() {
     },
     {
       id: 9,
-      image: 'image/Rectangle 2-6.png',
+      image: './image/Rectangle 2-6.png',
       title: 'Problem-Solving Part',
       description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
       price: 23000,
@@ -95,7 +95,7 @@ function App() {
               <h2 className="text-xl text-[#1C1B1B] font-bold">Course Name</h2>
               <p>If a dog chews shoes whose shoes does he choose?</p>
               <hr/>
-              <h3 className="text-[#1C1B1BCC] font-medium">Total Credit Hour : 13</h3>
+              <h3 className="text-[#1C1B1BCC] font-medium">Total Credit Hour : 13</h3> 
             </div>
           </div>
         </div>
