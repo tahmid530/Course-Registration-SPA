@@ -5,7 +5,7 @@ function App() {
   const course = [
     {
       id: 1,
-      image: "image/Rectangle 2-2.png",
+      image: `image/Rectangle 2-2.png`,
       title: 'Introduction to C Programming',
       description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
       price: 15000,
